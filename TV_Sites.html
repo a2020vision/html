@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head> 
+<title>TV sites</title>
+<!--<link rel="stylesheet" type="text/css" href="http://nickleep3.com/stylesheets/boxes.css"></link>-->
+<style type="text/css">
+a {
+	color: black;
+}
+div {
+	/*border: thin solid;*/
+	padding: 5px;
+	margin: 5px;
+}
+a {
+	text-decoration: none;
+	
+}
+
+/* all selections have the following properties:*/
+div.selection {
+	width:375px;
+	height: 150px;
+	vertical-align: center;
+	}
+
+
+
+div.outer {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	overflow: hidden;
+	clear: both;
+}
+div.left {
+	float:left;
+	margin-left:5px;
+	margin-right:auto;
+}
+div.right {
+	float:right;
+	margin-left: auto;
+	margin-right: 5px;
+}
+
+/* space for each selection:*/
+#netflix {
+	background-color: black;
+	color: red;
+}
+#youtube {
+	background-color: firebrick;
+	color: ghostwhite;
+	
+}
+#disneyplus {
+	background-color: DarkBlue;
+	color: azure;
+}
+#hulu {
+	background-color: forestgreen;
+	color: white;
+	}
+#youtubetv a {
+	color: silver;
+	}
+#amazonvideo {
+	background-color: DarkOrange;
+	color: Ivory;
+	}
+#amazonvideo a {
+	color: Ivory;
+	}
+#friends {
+	background-color: #0099FF;
+	}
+a:hover {
+	text-decoration: underline;
+	}
+</style>
+</head>
+<body>
+<div id="outer" class="outer">
+
+<a href="https://netflix.com"><div id="netflix" class="left selection">
+<h2 class="selection">Netflix</h2>
+<p class="selection">Netflix</p>
+</div></a>
+
+
+<a href="https://youtube.com"><div id="youtube" class="right selection">
+<h2 class="selection">Youtube</h2>
+<P class="selection">Regular Youtube</p>
+</div></a>
+
+<a href="https://www.hulu.com"><div id="hulu" class="selection left">
+<h2 class="selection">Hulu</h2>
+<p class="selection">Hulu</p>
+</div></a>
+
+<a href="https://www.amazon.com/Prime-Video/b?ie=UTF8&node=2676882011"><div id="amazonvideo" class="selection right">
+<h2>Amazon Prime</h2>
+<p>Amazon prime video</p>
+</div></a>
+
+<a href="https://www.disneyplus.com"><div id="disneyplus" class="selection left">
+<h2>Disney+</h2>
+<p>Disney+ and their growing almost-monopoly of content</p>
+</div></a>
+
+<br>
+</div>
+
+</body>
